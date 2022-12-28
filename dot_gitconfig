@@ -1,0 +1,7 @@
+[user]
+	email = dotelnp@gmail.com
+	name = Sushant Dotel
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
