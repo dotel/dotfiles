@@ -5,24 +5,7 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'tsserver',
-  'prismals',
-  'html',
-  'cssls',
-  'tailwindcss',
-  'eslint',
-  'sumneko_lua',
   'rust_analyzer',
-  'terraformls'
-})
-
-lsp.configure('sumneko_lua', {
-    settings = {
-        Lua = {
-            diagnostics = {
-                globals = { 'vim' }
-            }
-        }
-    }
 })
 
 
